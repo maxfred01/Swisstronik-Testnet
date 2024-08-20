@@ -6,7 +6,7 @@ async function main() {
 
   await contract.waitForDeployment();
 
-  console.log(`Swisstronik contract deployed to ${contract.target}`);
+  console.log(`This is your deployed contract address ${contract.target}`);
 }
 main().catch((error) => {
   console.error(error);
